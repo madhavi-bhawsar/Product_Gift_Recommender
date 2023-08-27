@@ -1,0 +1,78 @@
+
+<!-- finalest code with name -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Recommender</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+
+</head>
+<body>
+    <h1>Welcome to the Product Recommender</h1>
+    <form id="recommendation-form">
+        <label for="user_id">Enter User ID:</label>
+        <input type="text" name="user_id" id="user_id">
+        <input type="submit" value="Get Recommendations">
+    </form>
+
+    <div id="recommended-products">
+    <h2>Top Recommended Products</h2>
+    <ul id="recommended-products-list"></ul>
+</div>
+
+    <a id="friends-link" href="#">View Friends and Birthdays</a>
+
+<script>
+    document.getElementById("recommendation-form").addEventListener("submit", function(event) {
+        event.preventDefault();
+
+            const user_id = document.getElementById("user_id").value;
+            const friendsLink = document.getElementById("friends-link");
+            friendsLink.href = `/friends/${user_id}`;
+            friendsLink.style.display = "block";
+
+        fetch("/recommendations", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({ user_id: user_id })
+        })
+        .then(response => response.json())
+        .then(data => {
+            console.log("Received recommendations:", data);
+
+            const recommendedProductsList = document.getElementById("recommended-products-list");
+            recommendedProductsList.innerHTML = "";
+
+            let currentCategory = null;
+
+            data.forEach(product => {
+                if (product.category !== currentCategory) {
+                    currentCategory = product.category;
+                    recommendedProductsList.innerHTML += `<h3>Category: ${currentCategory}</h3>`;
+                }
+
+                recommendedProductsList.innerHTML += `
+                    <p><strong>Product ID:</strong> ${product.product_id}, Score: ${product.score}, Product_name:</strong> ${product.product_name}</strong></p>
+                `;
+            });
+
+            if (data.length === 0) {
+                recommendedProductsList.innerHTML = "<p>No recommendations available.</p>";
+            }
+        })
+        .catch(error => {
+            console.error("Error:", error);
+            const recommendedProductsList = document.getElementById("recommended-products-list");
+            recommendedProductsList.innerHTML = "<p>An error occurred while fetching recommendations.</p>";
+        });
+    });
+</script>
+</body>
+</html> 
+
+
+ 

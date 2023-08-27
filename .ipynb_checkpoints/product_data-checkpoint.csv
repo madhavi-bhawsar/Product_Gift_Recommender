@@ -1,0 +1,76 @@
+product_id,category,price,brand,name,description
+1,Electronics,150,"Frye, Montgomery and Cannon",Smartphone,.. :. category : electronics.
+2,Electronics,33,Nelson-Escobar,Laptop,.. : laptop category : electronics.
+3,Electronics,349,Smith PLC,Headphones,.. : headphones category : electronics.
+4,Electronics,323,King Ltd,Camera,.. : camera category : electronics.
+5,Electronics,385,Murillo-Porter,Gaming Console,.. : gaming console category : electronics.
+6,Electronics,412,Alexander and Sons,Tablet,.. : tablet category : electronics.
+7,Electronics,109,"Wilkinson, Kelley and Anderson",TV,.. : tv category : electronics.
+8,Electronics,454,Martin-Mathis,Charger,.. : charger category : electronics.
+9,Electronics,359,"Smith, Hughes and Doyle",Power Bank,.. :. bank category : electronics.
+10,Electronics,499,Long-Ward,Wireless Earbuds,.. :. earbus category : electronics.
+11,Electronics,18,Mitchell-Sampson,Smartwatch,.. :.watch category : electronics.
+12,Electronics,76,"Price, Page and Miranda",Bluetooth Speaker,.. : stooth speaker category : electronics.
+13,Electronics,455,Harris-Anderson,Mouse,.. : mouse category : electronics.
+14,Electronics,348,Williams-Brown,Keyboard,.. : keyboard category : electronics.
+15,Electronics,441,West Ltd,Monitor,.. : monitor category : electronics.
+16,Books,437,"Floyd, Skinner and Cook",Mystery Novel,.. : mystery novel category : books.
+17,Books,252,Matthews-Wilkerson,Science Fiction Book,.. : science fiction book category : books.
+18,Books,175,"Nelson, Pham and Smith",Cookbook,.. : cook. category : books.
+19,Books,42,Cross LLC,Self-help Book,.. : self - help book category : books.
+20,Books,394,George Group,Fantasy Novel,.. : fantasy novel category : books.
+21,Books,227,Robinson-Gutierrez,Biography,.. : biography category : books.
+22,Books,494,Thomas-Thompson,Thriller,.. : thriller category : books.
+23,Books,392,Miller LLC,Romance Novel,.. :. novel category : books.
+24,Books,58,Barr and Sons,Historical Fiction,.. : historical fiction category : books.
+25,Books,368,"Cohen, Cole and Roth",Poetry Book,.. : poetry book category : books.
+26,Books,25,Murray Inc,Non-fiction Book,.. : non - fiction book category : books.
+27,Books,187,Stewart Inc,Classic Literature,.. : classic literature category : books.
+28,Books,259,Gillespie-Lee,Comic Book,.. : comic book category : books.
+29,Books,369,Howe-Reeves,Graphic Novel,.. : graphic novel category : books.
+30,Books,117,Scott-Reid,Children's Book,.. : children. s book category : books.
+31,Groceries,252,Hudson-Hardy,Fresh Apples,.. : fresh apples category : groceries.
+32,Groceries,109,Lopez-West,Whole Wheat Bread,.. : whole wheat bread category : groceries.
+33,Groceries,233,"Patrick, Freeman and Fernandez",Organic Milk,.. : organic milk category : groceries.
+34,Groceries,81,Cooper-Fuller,Organic Eggs,.. : organic eggs category : groceries.
+35,Groceries,337,"Villarreal, Mcgee and Carlson",Fresh Vegetables,.. : fresh vegetables category : groceries.
+36,Groceries,301,"Edwards, Frank and Bell",Lean Chicken Breast,. product : lean chicken breast category : groceries.
+37,Groceries,40,"Hughes, Sanchez and Chang",Greek Yogurt,.. : greek.gurt category : groceries.
+38,Groceries,127,"Randolph, Evans and Baxter",Cereal,.. : cereal category : groceries.
+39,Groceries,29,Mendez PLC,Granola Bars,.. : granola bars category : groceries.
+40,Groceries,226,"Dennis, Vaughn and Johnson",Frozen Fruits,.. : frozen fruits category : groceries.
+41,Groceries,188,Johnson-Holmes,Canned Soup,.. : canned soup category : groceries.
+42,Groceries,359,Reynolds Group,Brown Rice,.. : brown rice category : groceries.
+43,Groceries,271,"Washington, Richardson and Jordan",Olive Oil,.. : olive oil category : groceries.
+44,Groceries,32,Pearson-Steele,Pasta,.. : pasta category : groceries.
+45,Groceries,18,Carrillo-Thomas,Spices,. product : spices category : groceries.
+46,Clothes,28,"Mcgee, Wallace and Francis",Casual T-shirt,.. :. t - shirt category : clothes.
+47,Clothes,454,"Mosley, Snyder and Hurst",Jeans,.. : jeans category : clothes.
+48,Clothes,214,Bishop-Harrison,Sneakers,.. : sneakers category : clothes.
+49,Clothes,484,Garcia-Reynolds,Dress Shirt,.. : dress shirt category : clothes.
+50,Clothes,133,Taylor-Nguyen,Dress Shoes,.. : dress shoes category : clothes.
+51,Clothes,336,Jefferson Ltd,Blouse,.. : blouse category : clothes.
+52,Clothes,321,Lee-Lindsey,Shorts,.. : shorts category : clothes.
+53,Clothes,70,Navarro-Russell,Sports Bra,.. : sports bra category : clothes.
+54,Clothes,205,Hall-Long,Running Shoes,.. : running shoes category : clothes.
+55,Clothes,381,Williams PLC,Hoodie,.. : hood. category : clothes.
+56,Clothes,499,Moore-Thompson,Jacket,.. : jacket category : clothes.
+57,Clothes,486,Tucker-Lee,Activewear Leggings,. product : activewear leggings category : clothes.
+58,Clothes,37,"Avila, Navarro and Johnson",Swimsuit,. s : swim : category : clothes.
+59,Clothes,328,Scott-Oconnor,Formal Dress,.. : formal dress category : clothes.
+60,Clothes,238,Davis-Ramos,Polo Shirt,.. : polo shirt category : clothes.
+61,Beauty,181,Hill-Livingston,Moisturizing Cream,. product : moisturizing cream category : beauty.
+62,Beauty,182,Stanley LLC,Anti-Aging Serum,. product : anti - aging serum category : beauty.
+63,Beauty,336,"Bailey, Holder and Olsen",Cleansing Oil,. product : cleansing oil category : beauty.
+64,Beauty,246,"Ortiz, Moore and Burke",Face Mask,. product : face mask category : beauty.
+65,Beauty,346,"Schwartz, Allen and Parker",Sunscreen,. product : suncreen category : beauty.
+66,Beauty,10,Hill-Gardner,Perfume,.. : perfume category : beauty.
+67,Beauty,291,Saunders-Gamble,Shampoo,. product : shampoo category : beauty.
+68,Beauty,54,Phillips-Diaz,Conditioner,.. : conditioner category : beauty.
+69,Beauty,442,Smith-Barrett,Hair Styling Gel,. product : hair & gel category : beauty.
+70,Beauty,457,Reed-Fernandez,Lipstick,.. : lipstick category : beauty.
+71,Beauty,200,"Erickson, Armstrong and Winters",Eyeshadow Palette,. product : eyeshadel palette category : beauty.
+72,Beauty,392,"Sullivan, Garcia and Johnson",Mascara,. product : mascara category : beauty.
+73,Beauty,17,Hicks-Lopez,Nail Polish,.. : nail polish category : beauty.
+74,Beauty,359,Christensen-Espinoza,Foundation,. s : foundation category : beauty.
+75,Beauty,366,Anderson-Huang,Blush,. product : blush category : beauty.

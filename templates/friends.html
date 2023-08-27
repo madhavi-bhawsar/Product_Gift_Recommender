@@ -1,0 +1,47 @@
+<!--finalmost bday  -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/friends.css') }}">
+    <title>Friends and Birthdays</title>
+        
+</head>
+<body>
+    <h1>Your FlipyFriends and Their Birthdays</h1>
+    
+    {% if no_friends_message %}
+    <p>{{ no_friends_message }}</p>
+    {% else %}
+    <h2>Your Friends:</h2>
+    <ul>
+        {% for friend_id in friends %}
+        <li>User ID: {{ friend_id }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Upcoming Birthdays:</h2>
+    <ul>
+        {% for friend_id, birthdate in upcoming_birthdays %}
+        <li>User ID: {{ friend_id }}, Birthday: {{ birthdate }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Gift Recommendations:</h2>
+    <ul>
+        {% for recommendation in gift_recommendations %}
+        <li>
+            User ID: {{ recommendation.user_id_birthday_boy }},
+            Birthday: {{ recommendation.birthdate }},
+            Product ID: {{ recommendation.product_id }},
+            Product Name: {{ recommendation.name }},
+            Category: {{ recommendation.category }},
+            Price: {{ recommendation.price }},
+            Brand: {{ recommendation.brand }}
+        </li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+</body>
+</html>

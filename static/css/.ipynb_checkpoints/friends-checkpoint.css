@@ -1,0 +1,75 @@
+/* friends.css */
+
+/* Reset some default styles */
+/* friends.css */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Lucida Handwriting', cursive;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+}
+
+h2 {
+    font-family: 'Lucida Calligraphy', cursive;
+    color: #333;
+    margin-top: 30px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    margin-top: 20px;
+    text-align: center;
+}
+
+li {
+    margin-bottom: 10px;
+    font-family: 'Lucida Sans', sans-serif;
+    text-align: center;
+}
+
+p {
+    font-family: 'Lucida Sans', sans-serif;
+    color: #666;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* Style for Gift Recommendations */
+#gift-recommendations {
+    margin-top: 30px;
+}
+
+#gift-recommendations h2 {
+    margin-bottom: 10px;
+}
+
+/* Back to Recommendations link */
+#back-link {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+#back-link:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Recommendations</title>
+</head>
+<body>
+    <h1>Top Recommended Products</h1>
+    <ul>
+        {% for product in recommended_products %}
+            <li>Product ID: {{ product['product_id'] }}, Score: {{ product['score'] }}, Category: {{ product['category'] }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
